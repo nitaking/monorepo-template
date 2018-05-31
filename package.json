@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sa.nitawaki",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "lerna clean ",
+    "bootstrap": "lerna bootstrap",
+    "re-install": "yarn run clean --yes && yarn run bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  },
+  "dependencies": {}
+}
